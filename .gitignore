@@ -68,3 +68,76 @@ install_manifest.txt
 *.su
 *.idb
 *.pdb
+
+# Autotools generated files
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.h
+config.h.in
+config.log
+config.status
+config.guess
+config.sub
+configure
+compile
+depcomp
+install-sh
+libtool
+ltmain.sh
+missing
+stamp-h1
+.deps/
+.libs/
+
+# Generated m4 macros (libtool)
+m4/libtool.m4
+m4/ltoptions.m4
+m4/ltsugar.m4
+m4/ltversion.m4
+m4/lt~obsolete.m4
+
+# pkg-config files
+*.pc
+
+# Doxygen generated documentation
+docs/html/
+docs/latex/
+docs/man/
+docs/xml/
+docs/rtf/
+
+# Premake generated files
+*.make
+*.xcworkspace/
+*.xcodeproj/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Core dumps
+core
+core.*
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
